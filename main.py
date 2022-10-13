@@ -1,25 +1,27 @@
 import pygame
+import os
+os.chdir('C:/Users/pok2d/PycharmProjects/MineSweeper/MineSweeper')
 
 # Importation and Initialization
 pygame.init()
 window = pygame.display.set_mode((1000, 1000))
 pygame.display.set_caption('Minesweeper')
 running = True
-icon = pygame.image.load('mine.png')
+icon = pygame.image.load('Images/mine.png')
 pygame.display.set_icon(icon)
 
 # Main variables
 
-minetile = pygame.image.load('mine.png')
-unknowntile = pygame.image.load('unknown.png')
-onetile = pygame.image.load('one.png')
-twotile = pygame.image.load('two.png')
-threetile = pygame.image.load('three.png')
-fourtile = pygame.image.load('four.png')
-fivetile = pygame.image.load('five.png')
-sixtile = pygame.image.load('six.png')
-seventile = pygame.image.load('seven.png')
-eighttile = pygame.image.load('eight.png')
+minetile = pygame.image.load('Images/mine.png')
+unknowntile = pygame.image.load('Images/unknown.png')
+onetile = pygame.image.load('Images/one.png')
+twotile = pygame.image.load('Images/two.png')
+threetile = pygame.image.load('Images/three.png')
+fourtile = pygame.image.load('Images/four.png')
+fivetile = pygame.image.load('Images/five.png')
+sixtile = pygame.image.load('Images/six.png')
+seventile = pygame.image.load('Images/seven.png')
+eighttile = pygame.image.load('Images/eight.png')
 
 
 # Main game loop
